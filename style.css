@@ -164,6 +164,12 @@ span {
     color: hsl(238, 63%, 64%);
 }
 
+.proffessional button:hover{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
 .proffessional p {
     border-top: .1px solid hsl(240, 78%, 98%);
     color: white;
@@ -204,6 +210,12 @@ button {
     font-size: 15px;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+button:hover{
+    background: transparent;
+    color: hsl(238, 63%, 64%);
+    border: 1px solid hsl(238, 63%, 64%) ;
 }
 
 .attribution {
